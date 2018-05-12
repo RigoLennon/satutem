@@ -98,7 +98,7 @@
                 <div class="card-header text-center">
                     Total a pagar:
                 </div>
-                <p class="card-text text-center">$ 0</p>
+                <p class="card-text text-center">$ 100</p>
             </div>
         </div>
     </div>
