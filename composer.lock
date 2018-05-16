@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "6d7e572db0be0082e92dd8227ce6a764",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -367,6 +367,53 @@
             "time": "2018-02-07T20:20:57+00:00"
         },
         {
+            "name": "illuminate/html",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/html.git",
+                "reference": "3d1009bb8e0f25720c914af5c1f4015dd373c9ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/html/zipball/3d1009bb8e0f25720c914af5c1f4015dd373c9ef",
+                "reference": "3d1009bb8e0f25720c914af5c1f4015dd373c9ef",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "~5.0",
+                "illuminate/session": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Html\\": ""
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "abandoned": "laravelcollective/html",
+            "time": "2015-01-01T16:31:18+00:00"
+        },
+        {
             "name": "jakub-onderka/php-console-color",
             "version": "0.1",
             "source": {
@@ -455,16 +502,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.6.21",
+            "version": "v5.6.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "458a89b1c5ff73072c27308566f444c790f76f28"
+                "reference": "637fd797a6dde8d24a9f07da77e375ec251c5d24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/458a89b1c5ff73072c27308566f444c790f76f28",
-                "reference": "458a89b1c5ff73072c27308566f444c790f76f28",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/637fd797a6dde8d24a9f07da77e375ec251c5d24",
+                "reference": "637fd797a6dde8d24a9f07da77e375ec251c5d24",
                 "shasum": ""
             },
             "require": {
@@ -590,7 +637,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-05-08T13:30:15+00:00"
+            "time": "2018-05-15T13:34:20+00:00"
         },
         {
             "name": "laravel/tinker",
